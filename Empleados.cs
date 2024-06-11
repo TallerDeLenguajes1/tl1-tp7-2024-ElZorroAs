@@ -44,13 +44,13 @@ public class Empleados
     /*
     2. Cree los métodos necesarios para poder obtener los datos que se detallan a continuación:
     */
-    public Empleado(string nombre, string apellido, DateTime fechaDeNacimiento, char estadoCivil, DateTime fechaDeIngreso, double sueldoBasico, estructuraCargos cargo)
+    public Empleados(string nombre, string apellido, DateTime fechaDeNacimiento, char estadoCivil, DateTime fechaDeIngreso, double sueldoBasico, estructuraCargos cargo)
     {
         this.nombre = nombre;
         this.apellido = apellido;
-        this.fechaNacimiento = fechaNacimiento;
+        this.fechaDeNacimiento = fechaDeNacimiento;
         this.estadoCivil = estadoCivil;
-        this.fechaIngreso = fechaIngreso;
+        this.fechaDeIngreso = fechaDeIngreso;
         this.sueldoBasico = sueldoBasico;
         this.cargo = cargo;
     }
